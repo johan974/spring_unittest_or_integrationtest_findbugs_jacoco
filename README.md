@@ -11,3 +11,6 @@ Results:
 * Scenario 2: 
   * mvn clean install -Pintegration       ==> performs the INTEGRATION test
   * mvn site                              ==> test coverage ... of 60%
+  
+Where are the Jacoco results? 
+After testing and running 'mvn clean', you can find the results in 'target/site/jacoco/index.html'. Open this file in the browser. 
